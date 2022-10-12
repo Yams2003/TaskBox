@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/about_us.css') }}">
+
+    <title>About Us</title>
+
+{% endblock %}
+
+{% block body %}
+    <div class="headertextarea">
+      <h1 class="headertext">Our Vision</h1>
+    </div>
+    <div class="bodytextarea">
+      <p class="bodytext">
+        We strive to create a website with the potential to help people build
+        healthy habits and further improve their lives. Users will ultimately
+        interact with a to-do list that has a progress indicator and a habit
+        tracker that shows them information regarding their interactions. As the
+        list progresses to completion their virtual pet (which is an incentive)
+        will become happier, signifying that the user has successfully
+        accomplished their goals while creating the healthy habit of progressing
+        through tasks.
+      </p>
+    </div>
+    <div class="teamtextarea">
+      <h1 class="teamtext">Meet the Team!</h1>
+    </div>
+    <div class="members">
+      <div class="membertext">
+        <div class="Ariyan">
+          <h2 class="NameAriyan">Ariyan Karim</h2>
+          <p class="AriyanBio">Role: Full Stack Developer</p>
+          <p class="AriyanBio">
+            Contributions: To-Do List, Routing, Update Page
+          </p>
+        </div>
+        <div class="Yahmin">
+          <h2 class="NameYahmin">Yahmin Haj</h2>
+          <p class="YahminBio">Role: Full Stack Developer</p>
+          <p class="YahminBio">Contributions: Timer, Routing</p>
+        </div>
+        <div class="Michael">
+          <h2 class="NameMichael">Michael Smith</h2>
+          <p class="MichaelBio">Role: Front-End Developer</p>
+          <p class="MichaelBio">Contributions: About-Us Page</p>
+        </div>
+        <div class="Calvin">
+          <h2 class="NameCalvin">Calvin Hoe</h2>
+          <p class="CalvinBio">Role: Full Stack Developer</p>
+          <p class="CalvinBio">Contributions: Progress Bar on To-Do</p>
+        </div>
+      </div>
+    </div>
+    
+{% endblock %}

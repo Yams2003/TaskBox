@@ -1,0 +1,9 @@
+.container {
+  text-align: center;
+  font-weight: 700;   /* Standard Bold */
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 700 !important;  /* Boostrap has forced my hand */
+}

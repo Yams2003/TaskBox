@@ -1,0 +1,63 @@
+/* Todolist table */
+table, td, th {
+    border: 4px solid #28b9b2;
+    border-radius:6px;
+}
+table {
+    table-layout: auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    height: 30px;
+    text-indent: 10%;
+}
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+table {
+    border-collapse:separate;
+    border:solid #252a33 1px;
+    border-radius:6px;
+    width: 100%;
+}
+
+
+
+th {
+    background-color: #28b9b2;
+    border-top: none;
+}
+
+td:first-child, th:first-child {
+     text-align: center;
+  
+}
+
+/* 05/20/22, coloring tables when no interaction with them */
+tr{
+    background-color:#dfded9;
+    color:#252a33;
+    text-align: center;
+}
+/* Specifically task name and date cells */
+tr:hover .taskButton{
+    background-color: #FFC600;
+    color: #07294D;
+    cursor: pointer;
+}
+.progressContainer {
+    text-align: center;
+
+    background: linear-gradient(to left, #0575E6, #00F260);
+    height: 10px;
+    width: 0%;
+    border-radius: 10px;
+
+}
+progress{
+    height: 20px;
+    width: 100%;
+}

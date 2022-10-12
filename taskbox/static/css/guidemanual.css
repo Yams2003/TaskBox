@@ -1,0 +1,42 @@
+
+  .documentation {
+    z-index: 1;
+  }
+  
+  h1{
+      font-size: 40px;
+      text-align: center;
+  }
+
+  h3{
+    font-size: 22px;
+    text-align: center;
+}
+  details.style {
+      padding-top: .5em;
+      padding-bottom: 2em;
+      padding-left: 2em;
+      padding-right: 2em;
+      
+      border: 1.5px solid #171a20;
+      background-color: #1c1f27;
+      border-radius:5px;
+      margin-bottom: 1em;
+      transition: all 1s ease-in-out;
+      max-height: 30px;
+      overflow: hidden;
+  }
+  
+  details[open].style {
+      background-color: #20242c;
+      max-height: 700px;
+  }
+  
+  details.style summary {
+      outline: none;
+      cursor: pointer;
+  }
+  
+  details[open].style summary {
+      padding-bottom: 2em;
+  }

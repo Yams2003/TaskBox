@@ -1,0 +1,26 @@
+# Credit to https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore, linked to from the GIT Cheat Sheet
+# for following vscode entries
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# Already ignored by other .gitignore file already created in folder
+/env/*
+
+# Heck you, pycache. I will make git ignore you
+**/__pycache__/*
+
+# File used by MacOS
+**/.DS_Store
+
+# Stop our database changes from being annoying
+**/*.db

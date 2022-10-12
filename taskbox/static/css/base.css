@@ -1,0 +1,108 @@
+/* Deprecated with new styling
+body, html {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #E1E1E0;
+}
+*/
+
+.content {
+    margin: 0 auto;
+    width: 400px;
+}
+
+a {
+    color: #006699;
+}
+a:active {
+    color: #07294D;
+}
+
+
+/* Handles form css */
+.form {
+    margin-top: 20px;
+}
+#content {
+    width: 70%;
+}
+
+
+/* Handles overall wave styling */
+/* HEX COLOR CODES:  COLOR1: b7aada COLOR2: 381e5e */
+body {
+    margin: 0;
+    font-family: 'Alatsi', sans-serif;
+    color: 	#dfded9;
+    background: #28b9b2;
+}
+
+    section {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        padding: 100px 20vw;
+    }
+
+    .blue {
+        background: blue;
+    }
+
+    .main_color_theme {
+        background: #252a33;
+    }
+
+    .wave1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+
+    .wave1 svg {
+        position: relative;
+        display: block;
+        width: calc(164% + 1.3px);
+        height: 120px;
+        transform: rotateY(180deg);
+    }
+
+    .wave1 .shape-fill {
+        fill: #28b9b2;
+    }
+
+    .wave2 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+
+    .wave2 svg {
+        position: relative;
+        display: block;
+        width: calc(145% + 1.3px);
+        height: 198px;
+    }
+
+    .wave2 .shape-fill {
+        fill: #28b9b2;
+    }
+
+    .navbar-light{
+        background:#28b9b2
+    }
+
+
+/* (Attempt to make) Right align systems guide link */
+#systems-guide {
+    align-self: flex-end;
+    float: right;
+}

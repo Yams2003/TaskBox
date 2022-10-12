@@ -1,0 +1,24 @@
+a:link{
+    color:#dfded9;
+    text-decoration: none;
+}
+a:visited{
+    color:#dfded9;
+    text-decoration: none;
+}
+a:hover{
+    color:#dfded9;
+    text-decoration: none;
+}
+a:active{
+    color:#dfded9;
+    text-decoration: none;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #28b9b2;
+    border-color: #28b9b2;
+}

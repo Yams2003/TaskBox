@@ -1,0 +1,37 @@
+.container {
+    text-align: center;
+    font-weight: 700;
+    z-index: 1;
+  }
+  
+.title {
+  font-size: 45px;
+}
+
+  h5 {
+    font-size: 20px;
+    color: #252a33;
+  }
+
+  p {
+    font-size: 15px;
+    color: #252a33;
+  }
+
+h1 {
+  font-size: 40px;
+  font-weight: 700 !important;  /* Another casualty to the tyranny of Bootstrap */
+}
+
+.wave2 svg {
+  position: relative;
+  display: block;
+  width: calc(145% + 1.3px);
+  height: 198px;
+  z-index: 0;
+}
+
+.p1 {
+  font-size: 20px;
+  color: #dfded9
+}

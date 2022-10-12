@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/guidemanual.css') }}">
+    <title>Systems Guide</title>
+{% endblock %}
+
+{% block body %}
+<h1>Guide and Manual</h1>
+<div class = "documentation">
+	<details class="style"> 
+		<summary>User Guide</summary>
+		<div>
+			<h3>To-Do List</h3>
+				<p>The To-Do List is designed for users to set goals for themselves. This feature allows users to create goals they want to complete, users can update the progress of the task as they complete it.</p>
+			<h3>Pomodoro Timer</h3>
+				<p>The Pomodoro Timer is a simple way to get users to stay focused while working. It works by switching between 25-minute work intervals and 5-minute breaks. </p>
+			<h3>Journal</h3>
+				<p>The Journal Page is designed to give a space for users to record their ideas and thoughts. A random prompt is presented to the users to stimulate their thoughts.</p>
+			<h3>About Us</h3>
+				<p>The About Us page is designed to add a sense of familiarity with the developers of the site. We want to make who we are and our intentions clear to the users.</p>
+			<h3>References</h3>
+				<p>The References page is set up to give users a list of top rated amazon books for staying motivated. Each image of the book is hyperlinked to the amazon page to give quick access for purchasing.</p>
+		</div>
+	</details>
+	
+	<details class="style"> 
+		<summary>Systems Manual</summary>
+		<div>
+			<h3>Minimum Hardware and Software Requirements:</h3>
+				<p>Browsers (has defined behavior with the following): Chrome, Firefox, Brave, Safari</p>
+				<p>PC Spec Minimum Requirements:</p>
+				<p> --> CPU: Anything equivalent to an i3+</p>
+				<p> --> RAM: 4gb+</p>
+				<p> --> STORAGE: 256gb+</p>
+      		<h3>Installation Guide:</h3>
+				<p>1st: Have a stable internet connection</p>
+      			<p>2nd: Secure access to webpage</p>
+      			<p>3rd: Register an account if not already registered</p>
+      		<h3>Contact Developers:</h3>
+				<p> --> Ariyan Karim: ak4244@drexel.edu</p>
+				<p> --> Yahmin Haj: ykh23@drexel.edu</p>
+				<p> --> Michael Smith: ms5345@drexel.edu</p>
+				<p> --> Calvin Hoe: ch3385@drexel.edu</p>
+		</div>
+	</details>
+</div>
+{% endblock %}

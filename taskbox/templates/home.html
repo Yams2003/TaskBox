@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block head %}
+  <!--- this is where you change fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+
+  <!--- styling some of the login buttons n stuff -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/loginregister.css') }}">
+
+  <title>Home Page</title>
+  
+{% endblock %}
+
+{% block body %}
+  <div class="container">
+    
+      <h1>Task Box</h1>
+      <a href="{{url_for('logout')}}" class = "btn btn-primary">Click to logout</a>
+    
+  
+  </div>
+  <div class="container">
+    <blockquote class="quotes">
+      <p>{{QUOTES}}</p>
+    </blockquote>
+  </div>
+{% endblock %}
